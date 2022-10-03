@@ -1,0 +1,79 @@
+@media(max-width:575.98px){
+    .menu-bg{
+        background-color: gold;
+    }
+    .menu-bg img{
+        width: 85%;
+    }
+    .menu-bg i{
+        color: rgb(200, 33, 33);
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu-bg ul{
+        text-align: center;
+    }
+      #banner .carousel-item {
+        height: 270px;
+      }
+
+      .ami{
+        margin-top: 40px;
+      }
+
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .menu-bg{
+        background-color: silver;
+    }
+    .menu-bg img{
+        width: 85%;
+    }
+    .menu-bg i{
+        color: rgb(200, 33, 33);
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    #navbarSupportedContent ul li a{
+        text-align: center;
+    }
+      #banner .carousel-item {
+        height: 270px;
+      }
+      .ami{
+        margin-top: 40px;
+      }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    .menu-bg{
+        background-color: rgb(187, 223, 25);
+    }
+    .menu-bg img{
+        width: 85%;
+    }
+    .menu-bg i{
+        color: rgb(3, 91, 191);
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 transparent;
+    }
+    .menu-bg ul{
+        text-align: center;
+    }
+      #banner .carousel-item {
+        height: 300px;
+      }
+      .ami{
+        margin-top: 40px;
+      }
+
+}

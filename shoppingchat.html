@@ -1,0 +1,905 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commarce</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/bbbootstrap/libraries/main/xzoom.css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="first-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="dropdown-part">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle"  id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Eng
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="">Bangla</button></li>
+                              <li><button class="dropdown-item" type="button">Arabic</button></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="dropdown-part2">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle"  id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                USA $
+                              </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="button">EUR</button></li>
+                              <li><button class="dropdown-item" type="button">BAD</button></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="head_toll">
+                        <p>Toll Free: +123 4567 8900</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg text-end">
+                    <div class="love_part">
+                   <p><i class="fa-solid fa-heart"></i>Wishlist</p>    
+                    </div>
+                    <div class="My_account">
+                        <button class="My_accountbutton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-user"></i> My Account
+                          </button>
+                         </div>
+
+                         <div class="registation">
+                          <button class="registationbutton" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                             log in/registation
+                          </button>
+                         </div>
+
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- my account model start -->
+
+   <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">My Account</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex">
+            <div class="m-2">
+                <label for="form-control1" class="form-label">Full-name</label>
+                <input type="text" class="form-control" id="form-control1" placeholder="Full Name">
+              </div>
+              <div class="m-2">
+                <label for="form-control2" class="form-label">Your-Email</label>
+                <input type="email" class="form-control" id="form-control2" placeholder="Your Email">
+              </div>
+          </div>
+          <div class="m-2">
+            <label for="form-control3" class="form-label">Password</label>
+            <input type="password" class="form-control" id="form-control3" placeholder="Password">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- my account model end -->
+
+
+    <!-- log in/ registation start -->
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">login/registation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex">
+              <div class="m-2">
+                  <label for="form-control1" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="form-control1" placeholder="First Name">
+                </div>
+                <div class="m-2">
+                  <label for="form-control2" class="form-label">Last Name</label>
+                  <input type="email" class="form-control" id="form-control2" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="m-2">
+              <label for="form-control3" class="form-label">Email Id</label>
+              <input type="password" class="form-control" id="form-control3" placeholder="Email Id">
+            </div>
+            <div class="m-2">
+              <label for="form-control4" class="form-label">password</label>
+              <input type="password" class="form-control" id="form-control4" placeholder="password">
+            </div>
+            <div class="m-2">
+              <label for="form-control5" class="form-label">Message</label>
+              <input type="password" class="form-control" id="form-control5" placeholder="Message">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">login</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">registation</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- log in/registation end -->
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg menu-bg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"  alt=""></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mx-md-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="shoppingchat.html">Shopping</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="checkout.html">Checkout </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="extra d-flex">
+            <form action="">
+              <div class="close">
+                <input type="text" class="class_input">
+                <i class="fa-solid fa-magnifying-glass clickk"></i>
+              </div>
+            </form>
+            <div class="bag_items">
+              <a href="#"> <i class="fa-solid fa-briefcase"></i> 2 items</a>
+             </div>
+        </div>
+        
+      </div>
+    </nav>
+
+   <!-- navpart end -->
+
+
+<!-- shopping chat part start -->
+    
+<section id="about">
+  <div class="about_banner" style="background:linear-gradient(rgba(0,0,0,0.596),rgba(0,0,0,0.596),rgba(0,0,0,0.596)), url(images/Aboutbb.jpg) no-repeat center / cover;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg">
+          <div class="banner_text text-center">
+            <H1>SHOPPING CART</H1>
+            <p>Home<a href="#"><i class="fa-solid fa-angles-right"></i></a><span>Shopping Cart</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- shopping part end -->
+
+<!-- table part start -->
+
+<section id="cart-container" class="cart my-5">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9">
+        <table>
+        <thead>
+            <tr>
+                <td>Product & Color</td>
+                <td>Unit Price</td>
+                <td>Quantity</td>
+                <td>Total Price</td>
+                <td>Remove Item</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+            
+                <div class="left">
+                  <td class="d-flex"><img src="images/Cart1.png" alt="">
+                </div>
+                <div class="right">
+                  <h5>Samsung Smart Watch</h5>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h6>Color : Silver</h6>
+                </div>
+                <td class="text-center"><h6>$99.00</h6></td>
+                <td class="text-center"><input type="number" style="width: 70px;"></td>
+                <td class="text-center"><h6>$99.00</h6></td>
+                <td class="text-center"><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <tr>
+            
+              <div class="left">
+                <td class="d-flex"><img src="images/Cart1.png" alt="">
+              </div>
+              <div class="right">
+                <h5>Samsung Smart Watch</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h6>Color : Silver</h6>
+              </div>
+              <td class="text-center"><h6>$99.00</h6></td>
+              <td class="text-center"><input type="number" style="width: 70px;"></td>
+              <td class="text-center"><h6>$99.00</h6></td>
+              <td class="text-center"><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+          </tr>
+          <tr>
+            
+            <div class="left">
+              <td class="d-flex"><img src="images/Cart1.png" alt="">
+            </div>
+            <div class="right">
+              <h5>Samsung Smart Watch</h5>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h6>Color : Silver</h6>
+            </div>
+            <td class="text-center"><h6>$99.00</h6></td>
+            <td class="text-center"><input type="number" style="width: 70px;"></td>
+            <td class="text-center"><h6>$99.00</h6></td>
+            <td class="text-center"><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+        </tr>
+        <tr>
+            
+          <div class="left">
+            <td class="d-flex"><img src="images/Cart1.png" alt="">
+          </div>
+          <div class="right">
+            <h5>Samsung Smart Watch</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <h6>Color : Silver</h6>
+          </div>
+          <td class="text-center"><h6>$99.00</h6></td>
+          <td class="text-center"><input type="number" style="width: 70px;"></td>
+          <td class="text-center"><h6>$99.00</h6></td>
+          <td class="text-center"><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+      </tr>
+            
+        </tbody>
+      </table>
+        </div>
+        <div class="col-lg-3">
+          <div class="cuppon_form">
+            <form action="#">
+              <div class="form_head mb-3">
+                <h5>Have a coupon?</h5>
+              </div>
+              <div class="cuppon_code d-flex">
+                <input class="form-control me-2" type="email" placeholder="Enter Your Code" aria-label="email">
+                <button class="btn" type="submit">send</button>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h6>Cart Total</h6>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <h6> <span>Cart Subtotal</span> <span>$ 99.00</span></h6>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6> <span>(+) Shipping</span> <span>$ 10.00</span></h6>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6> <span>(-) Discount</span> <span>$ 20.00</span></h6>
+                  </td>
+                </tr>
+                <tr class="border_top">
+                  <td>
+                    <h6> <span>Grand Total</span> <span>$ 98.00</span></h6>
+                  </td>
+                </tr>
+              </table>
+              <div class="update_btn mt-5">
+                <button class="btn" type="submit">Upadate Cart</button>
+                <button class="btn" type="submit">Proceed</button>
+              </div>
+            </form>
+          </div>
+        </div>
+  </div>
+</div>
+</section>
+
+<!-- table part end -->
+<!-- <section class="shopping_product">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-12 d-flex justify-content-center ">
+        <div class="shopping_items">
+          <table>
+            <tr>
+              <th>
+                <h5>Product & Color</h5>
+              </th>
+              <th>
+                <h5>Unit Price</h5>
+              </th>
+              <th>
+                <h5>Quantity</h5>
+              </th>
+              <th>
+                <h5>Total Price</h5>
+              </th>
+              <th>
+                <h5>Remove Item</h5>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <div class="product_details">
+                  <div class="product_img">
+                    <img src="./images/Cart1.png" alt="watch.jpg">
+                  </div>
+                  <div class="product_shop_text">
+                    <h6>Samsung Smart Watch</h6>
+                    <div class="p_star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Color : Sliver</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td> <input type="number" value="1"></td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product_details">
+                  <div class="product_img">
+                    <img src="./images/Cart1.png" alt="watch.jpg">
+                  </div>
+                  <div class="product_shop_text">
+                    <h6>Samsung Smart Watch</h6>
+                    <div class="p_star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Color : Sliver</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td> <input type="number" value="1"></td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product_details">
+                  <div class="product_img">
+                    <img src="./images/Cart1.png" alt="watch.jpg">
+                  </div>
+                  <div class="product_shop_text">
+                    <h6>Samsung Smart Watch</h6>
+                    <div class="p_star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Color : Sliver</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td> <input type="number" value="1"></td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product_details">
+                  <div class="product_img">
+                    <img src="./images/Cart1.png" alt="watch.jpg">
+                  </div>
+                  <div class="product_shop_text">
+                    <h6>Samsung Smart Watch</h6>
+                    <div class="p_star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Color : Sliver</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td> <input type="number" value="1"></td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product_details">
+                  <div class="product_img">
+                    <img src="./images/Cart1.png" alt="watch.jpg">
+                  </div>
+                  <div class="product_shop_text">
+                    <h6>Samsung Smart Watch</h6>
+                    <div class="p_star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Color : Sliver</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td> <input type="number" value="1"></td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product_details">
+                  <div class="product_img">
+                    <img src="./images/Cart1.png" alt="watch.jpg">
+                  </div>
+                  <div class="product_shop_text">
+                    <h6>Samsung Smart Watch</h6>
+                    <div class="p_star_icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Color : Sliver</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td> <input type="number" value="1"></td>
+              <td>
+                <h6>$99.00</h6>
+              </td>
+              <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="cuppon_form">
+          <form action="#">
+            <div class="form_head mb-3">
+              <h5>Have a coupon?</h5>
+            </div>
+            <div class="cuppon_code d-flex">
+              <input class="form-control me-2" type="email" placeholder="Enter Your Code" aria-label="email">
+              <button class="btn" type="submit">send</button>
+            </div>
+            <table>
+              <tr>
+                <th>
+                  <h6>Cart Total</h6>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <h6> <span>Cart Subtotal</span> <span>$ 99.00</span></h6>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h6> <span>(+) Shipping</span> <span>$ 10.00</span></h6>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h6> <span>(-) Discount</span> <span>$ 20.00</span></h6>
+                </td>
+              </tr>
+              <tr class="border_top">
+                <td>
+                  <h6> <span>Grand Total</span> <span>$ 98.00</span></h6>
+                </td>
+              </tr>
+            </table>
+            <div class="update_btn mt-5">
+              <button class="btn" type="submit">Upadate Cart</button>
+              <button class="btn" type="submit">Proceed</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- latest part end -->
+
+<!-- brand part start -->
+
+<section id="brand">
+  <div class="container">
+    <div class="row brand_slick">
+      <div class="col-lg brandtak">
+        <div class="mar_item">
+          <img src="images/b1.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg brandtak">
+        <div class="mar_item">
+          <img src="images/b2.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg brandtak">
+        <div class="mar_item">
+          <img src="images/b3.png" alt="">
+        </div>
+        <div class="mar_overlay"></div>
+      </div>
+      <div class="col-lg brandtak">
+        <div class="mar_item">
+          <img src="images/b4.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg brandtak">
+        <div class="mar_item">
+          <img src="images/b5.png" alt="">
+        </div>
+      </div>   
+      <div class="col-lg brandtak">
+        <div class="mar_item">
+          <img src="images/b5.png" alt="">
+        </div>
+      </div>                                                                                   
+    </div>
+  </div>
+
+<!-- brand part end -->
+
+
+
+
+
+    <!-- footer part start -->
+
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="foot_part">
+                <img src="images/logo2.png"  alt="">
+              </div>
+              <div class="foot_text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+               <span>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="contact_part">
+                <h3>CONTACT US</h3>
+              </div>
+              <div class="foot_text2">
+               <p><i class="fa-solid fa-location-dot"></i> <span>1234, Parkstreet Avenue, NewYork</span> </p>
+               <p><i class="fa-solid fa-phone"></i> <span>+123 456 78900, +009 876 54321</span> </p>
+               <p><i class="fa-regular fa-envelope"></i> <span>info@e-buy.com, e-buy@info.com</span> </p>
+               <p><i class="fa-solid fa-earth-americas"></i><span>www.e-buy.com, www.infobuy.com</span> </p>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="account_part">
+                <h3>MY ACCOUNT</h3>
+              </div>
+              <div class="foot_text3">
+                <p>My Account</p>
+                <p>Whishist</p>
+                <p>Shopping Chest</p>
+                <p>Compare</p>
+                <p>Checkout</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="newsiller_part">
+                <h3>Sign Up For Newsletter</h3>
+              </div>
+              <div class="footer_searchbar">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">SUBMIT</button>
+                </form>
+              </div>
+              <div class="newsiller_text">
+                <h4>Follow me on</h4>
+              </div>
+              <div class="newsiller_icon">
+                <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- footer part end -->
+
+    <!-- las prt stat -->
+
+    <section id="last">
+      <div class="container">
+        <div class="row last_tag">
+          <div class="col-lg-6">
+            <div class="last_text">
+              Copyright &copy;2018. All right reserved by <span>E-BUY</span>
+            </div>
+          </div>
+          <div class="col-lg-6 text-end">
+            <div class="last_pic">
+              <img src="images/lastpoc.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- last part end -->
+
+    
+
+    <!-- <script src="js/jquery-1.12.4.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/xzoom.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>(function ($) {
+      $(document).ready(function() {
+          $('.xzoom, .xzoom-gallery').xzoom({zoomWidth: 400, title: true, tint: '#333', Xoffset: 15});
+          $('.xzoom2, .xzoom-gallery2').xzoom({position: '#xzoom2-id', tint: '#ffa200'});
+          $('.xzoom3, .xzoom-gallery3').xzoom({position: 'lens', lensShape: 'circle', sourceClass: 'xzoom-hidden'});
+          $('.xzoom4, .xzoom-gallery4').xzoom({tint: '#006699', Xoffset: 15});
+          $('.xzoom5, .xzoom-gallery5').xzoom({tint: '#006699', Xoffset: 15});
+    
+          //Integration with hammer.js
+          var isTouchSupported = 'ontouchstart' in window;
+    
+          if (isTouchSupported) {
+              //If touch device
+              $('.xzoom, .xzoom2, .xzoom3, .xzoom4, .xzoom5').each(function(){
+                  var xzoom = $(this).data('xzoom');
+                  xzoom.eventunbind();
+              });
+              
+              $('.xzoom, .xzoom2, .xzoom3').each(function() {
+                  var xzoom = $(this).data('xzoom');
+                  $(this).hammer().on("tap", function(event) {
+                      event.pageX = event.gesture.center.pageX;
+                      event.pageY = event.gesture.center.pageY;
+                      var s = 1, ls;
+      
+                      xzoom.eventmove = function(element) {
+                          element.hammer().on('drag', function(event) {
+                              event.pageX = event.gesture.center.pageX;
+                              event.pageY = event.gesture.center.pageY;
+                              xzoom.movezoom(event);
+                              event.gesture.preventDefault();
+                          });
+                      }
+      
+                      xzoom.eventleave = function(element) {
+                          element.hammer().on('tap', function(event) {
+                              xzoom.closezoom();
+                          });
+                      }
+                      xzoom.openzoom(event);
+                  });
+              });
+    
+          $('.xzoom4').each(function() {
+              var xzoom = $(this).data('xzoom');
+              $(this).hammer().on("tap", function(event) {
+                  event.pageX = event.gesture.center.pageX;
+                  event.pageY = event.gesture.center.pageY;
+                  var s = 1, ls;
+    
+                  xzoom.eventmove = function(element) {
+                      element.hammer().on('drag', function(event) {
+                          event.pageX = event.gesture.center.pageX;
+                          event.pageY = event.gesture.center.pageY;
+                          xzoom.movezoom(event);
+                          event.gesture.preventDefault();
+                      });
+                  }
+    
+                  var counter = 0;
+                  xzoom.eventclick = function(element) {
+                      element.hammer().on('tap', function() {
+                          counter++;
+                          if (counter == 1) setTimeout(openfancy,300);
+                          event.gesture.preventDefault();
+                      });
+                  }
+    
+                  function openfancy() {
+                      if (counter == 2) {
+                          xzoom.closezoom();
+                          $.fancybox.open(xzoom.gallery().cgallery);
+                      } else {
+                          xzoom.closezoom();
+                      }
+                      counter = 0;
+                  }
+              xzoom.openzoom(event);
+              });
+          });
+          
+          $('.xzoom5').each(function() {
+              var xzoom = $(this).data('xzoom');
+              $(this).hammer().on("tap", function(event) {
+                  event.pageX = event.gesture.center.pageX;
+                  event.pageY = event.gesture.center.pageY;
+                  var s = 1, ls;
+    
+                  xzoom.eventmove = function(element) {
+                      element.hammer().on('drag', function(event) {
+                          event.pageX = event.gesture.center.pageX;
+                          event.pageY = event.gesture.center.pageY;
+                          xzoom.movezoom(event);
+                          event.gesture.preventDefault();
+                      });
+                  }
+    
+                  var counter = 0;
+                  xzoom.eventclick = function(element) {
+                      element.hammer().on('tap', function() {
+                          counter++;
+                          if (counter == 1) setTimeout(openmagnific,300);
+                          event.gesture.preventDefault();
+                      });
+                  }
+    
+                  function openmagnific() {
+                      if (counter == 2) {
+                          xzoom.closezoom();
+                          var gallery = xzoom.gallery().cgallery;
+                          var i, images = new Array();
+                          for (i in gallery) {
+                              images[i] = {src: gallery[i]};
+                          }
+                          $.magnificPopup.open({items: images, type:'image', gallery: {enabled: true}});
+                      } else {
+                          xzoom.closezoom();
+                      }
+                      counter = 0;
+                  }
+                  xzoom.openzoom(event);
+              });
+          });
+    
+          } else {
+              //If not touch device
+    
+              //Integration with fancybox plugin
+              $('#xzoom-fancy').bind('click', function(event) {
+                  var xzoom = $(this).data('xzoom');
+                  xzoom.closezoom();
+                  $.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
+                  event.preventDefault();
+              });
+             
+              //Integration with magnific popup plugin
+              $('#xzoom-magnific').bind('click', function(event) {
+                  var xzoom = $(this).data('xzoom');
+                  xzoom.closezoom();
+                  var gallery = xzoom.gallery().cgallery;
+                  var i, images = new Array();
+                  for (i in gallery) {
+                      images[i] = {src: gallery[i]};
+                  }
+                  $.magnificPopup.open({items: images, type:'image', gallery: {enabled: true}});
+                  event.preventDefault();
+              });
+          }
+      });
+    })(jQuery); </script>
+</body>
+</html>

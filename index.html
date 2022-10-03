@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commarce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="first-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="dropdown-part">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle"  id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Eng
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="">Bangla</button></li>
+                              <li><button class="dropdown-item" type="button">Arabic</button></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="dropdown-part2">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle"  id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                USA $
+                              </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="button">EUR</button></li>
+                              <li><button class="dropdown-item" type="button">BAD</button></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="head_toll">
+                        <p>Toll Free: +123 4567 8900</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg text-end">
+                    <div class="love_part">
+                   <p><i class="fa-solid fa-heart"></i>Wishlist</p>    
+                    </div>
+                    <div class="My_account">
+                        <button class="My_accountbutton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-user"></i> My Account
+                          </button>
+                         </div>
+
+                         <div class="registation">
+                          <button class="registationbutton" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                             log in/registation
+                          </button>
+                         </div>
+
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- my account model start -->
+
+   <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">My Account</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex">
+            <div class="m-2">
+                <label for="form-control1" class="form-label">Full-name</label>
+                <input type="text" class="form-control" id="form-control1" placeholder="Full Name">
+              </div>
+              <div class="m-2">
+                <label for="form-control2" class="form-label">Your-Email</label>
+                <input type="email" class="form-control" id="form-control2" placeholder="Your Email">
+              </div>
+          </div>
+          <div class="m-2">
+            <label for="form-control3" class="form-label">Password</label>
+            <input type="password" class="form-control" id="form-control3" placeholder="Password">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- my account model end -->
+
+
+    <!-- log in/ registation start -->
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">login/registation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex">
+              <div class="m-2">
+                  <label for="form-control1" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="form-control1" placeholder="First Name">
+                </div>
+                <div class="m-2">
+                  <label for="form-control2" class="form-label">Last Name</label>
+                  <input type="email" class="form-control" id="form-control2" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="m-2">
+              <label for="form-control3" class="form-label">Email Id</label>
+              <input type="password" class="form-control" id="form-control3" placeholder="Email Id">
+            </div>
+            <div class="m-2">
+              <label for="form-control4" class="form-label">password</label>
+              <input type="password" class="form-control" id="form-control4" placeholder="password">
+            </div>
+            <div class="m-2">
+              <label for="form-control5" class="form-label">Message</label>
+              <input type="password" class="form-control" id="form-control5" placeholder="Message">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">login</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">registation</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- log in/registation end -->
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg menu-bg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"  alt=""></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mx-md-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="shoppingchat.html">Shopping</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="checkout.html">Checkout </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="extra d-flex">
+            <form action="">
+              <div class="close">
+                <input type="text" class="class_input">
+                <i class="fa-solid fa-magnifying-glass clickk"></i>
+              </div>
+            </form>
+            <div class="bag_items">
+              <a href="#"> <i class="fa-solid fa-briefcase"></i> 2 items</a>
+             </div>
+        </div>
+        
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- banner part start -->
+    <section id="banner">
+      <div class="banner_slide">
+        <div class="banner_img" style="background:linear-gradient(rgba(0,0,0,0.596),rgba(0,0,0,0.596),rgba(0,0,0,0.596)), url(images/banner.jpg) no-repeat center / cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="banner_writen">
+                  <h1>2017</h1>
+                  <h3>Trendy Design</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere assumenda, tempora,
+                    at corrupti quo voluptates deleniti asperiores quisquam consectetur itaque ipsam hic,
+                     quibusdam nesciunt doloremque? Nisi, fuga? Voluptas, asperiores officiis.</p>
+                     <div class="btn_ban">
+                      <a href="#">VIEW MORE</a>
+                      <a href="#">PURCHES</a>
+                     </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner_img" style="background:linear-gradient(rgba(0,0,0,0.596),rgba(0,0,0,0.596),rgba(0,0,0,0.596)), url(images/banner.jpg) no-repeat center / cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="banner_writen">
+                  <h1>2017</h1>
+                  <h3>Trendy Design</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere assumenda, tempora,
+                    at corrupti quo voluptates deleniti asperiores quisquam consectetur itaque ipsam hic,
+                     quibusdam nesciunt doloremque? Nisi, fuga? Voluptas, asperiores officiis.</p>
+                     <div class="btn_ban">
+                      <a href="#">VIEW MORE</a>
+                      <a href="#">PURCHES</a>
+                     </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner_img" style="background:linear-gradient(rgba(0,0,0,0.596),rgba(0,0,0,0.596),rgba(0,0,0,0.596)), url(images/banner.jpg) no-repeat center / cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="banner_writen">
+                  <h1>2017</h1>
+                  <h3>Trendy Design</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere assumenda, tempora,
+                    at corrupti quo voluptates deleniti asperiores quisquam consectetur itaque ipsam hic,
+                     quibusdam nesciunt doloremque? Nisi, fuga? Voluptas, asperiores officiis.</p>
+                     <div class="btn_ban">
+                      <a href="#">VIEW MORE</a>
+                      <a href="#">PURCHES</a>
+                     </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- banner part end -->
+
+    <!-- shipping part start -->
+    
+    <section id="shipping">
+      <div class="container">
+        <div class="row">
+          
+            <div class="shipping_icon col-lg-4">
+              <a href="#"><i class="fa-solid fa-truck"></i>Free Shipping</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+  
+       
+            <div class="shipping_icon col-lg-4">
+              <a href="#"><i class="fa-solid fa-globe"></i>24/7 Support</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        
+            <div class="shipping_icon col-lg-4">
+              <a href="#"><i class="fa-solid fa-money-bill"></i>Cashback</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- shipping part end -->
+
+    <!-- gal part start -->
+      <section>
+        <div class="container">
+            <div class="row py-5">
+              <div class="col-lg-4">
+                <div class="gall_img">
+                  <img src="images/gal1.jpg" class="w-100" alt="">
+                  <div class="gal_overlay">
+                    <h1>New</h1>
+                    <h3>Jeans Shirt</h3>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="gall_img">
+                  <img src="images/gal2.jpg" class="w-100" alt="">
+                  <div class="gal_overlay">
+                    <h1>2017</h1>
+                    <h3>Women’s Glass</h3>
+                    <a href="#">Shop Now</a>
+                  </div>
+                  <h6>New</h6>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="gall_img">
+                  <img src="images/gal3.jpg" class="w-100" alt="">
+                  <div class="gal_overlay">
+                    <h1>Best</h1>
+                    <h3>Mens Shirt</h3>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    <!-- gal part end -->
+
+
+    <!-- fetured product start -->
+
+      <section id="feature_product">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="feturedproductr_head text-center">
+                <h3>Featured Products</h3>
+              </div>
+            </div>
+            <div class="product_menu pb-3">
+              <ul>
+                <li><a class="menu-link active" aria-current="page" href="#">All</a></li>
+                <li><a class="menu-link active" aria-current="page" href="#">Men</a></li>
+                <li><a class="menu-link active" aria-current="page" href="#">Women</a></li>
+                <li><a class="menu-link active" aria-current="page" href="#">Children</a></li>
+                <li><a class="menu-link active" aria-current="page" href="#"> Accesorries</a></li>
+              </ul>
+            </div>
+                <div class="col my-5">
+                  <div class="product_img">
+                    <img src="images/product1.jpg" class="w-100" alt="">
+                    <div class="product_overlay">
+                      <ul>
+                         <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="product_text">
+                      <h5>Woolen T-Shirt<span>$ 99.00</span></h5> 
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col my-5">
+                  <div class="product_img">
+                    <img src="images/product2.jpg" class="w-100"  alt="">
+                    <div class="product_overlay">
+                      <ul>
+                         <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="product_text">
+                      <h5>Silk Skirt <span>$ 99.00</span></h5> 
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col my-5">
+                  <div class="product_img">
+                    <img src="images/product3.jpg" class="w-100" alt="">
+                    <div class="product_overlay">
+                      <ul>
+                         <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="product_text">
+                      <h5>Woolen T-Shirt<span>$ 99.00</span></h5> 
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col my-5">
+                  <div class="product_img">
+                    <img src="images/product4.jpg" class="w-100"  alt="">
+                    <div class="product_overlay">
+                      <ul>
+                         <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="product_text">
+                      <h5>Woolen T-Shirt<span>$ 99.00</span></h5> 
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- fetured product end -->
+
+    <!-- counter part start -->
+
+    <section id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="counter_img">
+              <div class="computer_item">
+                <img src="images/computer.png" class="w-100" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="computer_text">
+              <div class="computer_textmain">
+                <h5>New Product</h5>
+                <h3>Microsoft Surface Pro</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Loremsum has been the industry's standard dummy text ever since the 1500s, 
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                  It hasived not only five centuries, with the release of Letraset sheets.</p>
+                  <h6>Launch in</h6>
+              <div class="row">
+                <div class="col-lg">
+                  <div class="counter_item">
+                    <h5 class="counter">365</h5>
+                    <p>Days</p>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="counter_item">
+                    <h5 class="counter">24</h5>
+                    <p>Hours</p>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="counter_item">
+                    <h5 class="counter">54</h5>
+                    <p>Mins</p>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="counter_item">
+                    <h5 class="counter">52</h5>
+                    <p>Sec</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- counter part end -->
+
+    <!-- Latest product start -->
+      <section id="latest">
+        <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="latestproductr_head text-center">
+                  <h3>Latest Products</h3>
+                </div>
+              </div>
+              <div class="mobile_slide">
+                  <div class="col-lg py-5">
+                    <div class="mobile_part">
+                      <img src="images/mobile1.png" class="w-100" alt="">
+                      <div class="mobile_overlay">
+                        <ul>
+                          <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="mobile_text">
+                        <h5>Samsung-GTS<span>$ 99.00</span></h5> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg py-5">
+                    <div class="mobile_part">
+                      <img src="images/mobile2.png" class="w-100" alt="">
+                      <div class="mobile_overlay">
+                        <ul>
+                          <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="mobile_text">
+                        <h5>Samsung-GTS<span>$ 99.00</span></h5> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg py-5">
+                    <div class="mobile_part">
+                      <img src="images/mobile3.png" class="w-100" alt="">
+                      <div class="mobile_overlay">
+                        <ul>
+                          <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="mobile_text">
+                        <h5>Samsung-GTS<span>$ 99.00</span></h5> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg py-5">
+                    <div class="mobile_part">
+                      <img src="images/mobile4.png" class="w-100" alt="">
+                      <div class="mobile_overlay">
+                        <ul>
+                          <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="mobile_text">
+                        <h5>Samsung-GTS<span>$ 99.00</span></h5> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg py-5">
+                    <div class="mobile_part">
+                      <img src="images/mobile4.png" class="w-100" alt="">
+                      <div class="mobile_overlay">
+                        <ul>
+                          <li><a href="#"><i class="fa-solid fa-signs-post"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-repeat"></i></a></li>
+                          <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="mobile_text">
+                        <h5>Samsung-GTS<span>$ 99.00</span></h5> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    <!-- Latest product end -->
+
+    <!-- testimonial part start -->
+   <section id="testimonial">
+    <div class="testimonialhead text-center">
+      <h3>Testimonial</h3>
+    </div>
+    
+    <div class="test_back">
+      <div class="overlay">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="test_slide">
+        <div class="col-lg-12">
+        <div class="test_main">
+            <div class="test_item">
+              <div class="test_inner">
+                <div class="one_test">
+                  <img src="images/T1.png" alt="">
+                </div>
+                <div class="two_test">
+                  <h3>ASH Shakir</h3>
+                  <h5>Sketch Artist</h5>
+                  <p>Lorem Ipsum is simply dummy text of the printing and stry. 
+                    Lorem sum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                    <h6>Ash Shakir</h6>
+                </div>
+              </div>
+            </div>
+            <div class="test_item item2">
+              <div class="test_inner">
+                <div class="one_test">
+                  <img src="images/T2.png" alt="">
+                </div>
+                <div class="two_test">
+                  <h3>ASH Shakir</h3>
+                  <h5>Sketch Artist</h5>
+                  <p>Lorem Ipsum is simply dummy text of the printing and stry. 
+                    Lorem sum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                    <h6>Ash Shakir</h6>
+                </div>
+              </div>
+            </div>
+            <div class="test_item2">
+              <div class="test_inner">
+                <div class="one_test">
+                  <img src="images/T2.png" alt="">
+                </div>
+                <div class="two_test">
+                  <h3>ASH Shakir</h3>
+                  <h5>Sketch Artist</h5>
+                  <p>Lorem Ipsum is simply dummy text of the printing and stry. 
+                    Lorem sum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a ive centuries, but also the leap into electronic.</p>
+                    <h6>Ash Shakir</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+    <!-- testimonial part end -->
+
+    <!-- blog part start -->
+    <section id="blog">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="blog_header text-center">
+              <h3>Our Blog</h3>
+            </div>   
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 our_blog">
+              <div class="bog_parrt">
+                <img src="images/bog1.png" class="w-100" alt="">
+                <div class="blog_overlay">
+                  <ul>
+                    <li><i class="fa-solid fa-link"></i></li>
+                  </ul>
+                </div>
+                <div class="blog_text">
+                  <h4>Best E-commerce I’d shopping yet</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's
+                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                     <h5>Read More <i class="fa-solid fa-arrow-right"></i></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 our_blog">
+              <div class="bog_parrt">
+                <img src="images/blog2.png" class="w-100" alt="">
+                <div class="blog_overlay">
+                  <ul>
+                    <li><i class="fa-solid fa-link"></i></li>
+                  </ul>
+                </div>
+                <div class="blog_text">
+                  <h4>Best E-commerce I’d shopping yet</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's
+                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                     <h5>Read More <i class="fa-solid fa-arrow-right"></i></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 our_blog">
+              <div class="bog_parrt">
+                <img src="images/blog3.png" class="w-100" alt="">
+                <div class="blog_overlay">
+                  <ul>
+                    <li><i class="fa-solid fa-link"></i></li>
+                  </ul>
+                </div>
+                <div class="blog_text">
+                  <h4>Best E-commerce I’d shopping yet</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the indusy's
+                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                     <h5>Read More <i class="fa-solid fa-arrow-right"></i></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- blog part end -->
+
+    <!-- footer part start -->
+
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="foot_part">
+                <img src="images/logo2.png"  alt="">
+              </div>
+              <div class="foot_text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+               <span>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="contact_part">
+                <h3>CONTACT US</h3>
+              </div>
+              <div class="foot_text2">
+               <p><i class="fa-solid fa-location-dot"></i> <span>1234, Parkstreet Avenue, NewYork</span> </p>
+               <p><i class="fa-solid fa-phone"></i> <span>+123 456 78900, +009 876 54321</span> </p>
+               <p><i class="fa-regular fa-envelope"></i> <span>info@e-buy.com, e-buy@info.com</span> </p>
+               <p><i class="fa-solid fa-earth-americas"></i><span>www.e-buy.com, www.infobuy.com</span> </p>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="account_part">
+                <h3>MY ACCOUNT</h3>
+              </div>
+              <div class="foot_text3">
+                <p>My Account</p>
+                <p>Whishist</p>
+                <p>Shopping Chest</p>
+                <p>Compare</p>
+                <p>Checkout</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="newsiller_part">
+                <h3>Sign Up For Newsletter</h3>
+              </div>
+              <div class="footer_searchbar">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">SUBMIT</button>
+                </form>
+              </div>
+              <div class="newsiller_text">
+                <h4>Follow me on</h4>
+              </div>
+              <div class="newsiller_icon">
+                <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- footer part end -->
+
+    <!-- las prt stat -->
+
+    <section id="last">
+      <div class="container">
+        <div class="row last_tag">
+          <div class="col-lg-6">
+            <div class="last_text">
+              Copyright &copy;2018. All right reserved by <span>E-BUY</span>
+            </div>
+          </div>
+          <div class="col-lg-6 text-end">
+            <div class="last_pic">
+              <img src="images/lastpoc.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- last part end -->
+    
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
